@@ -4,7 +4,14 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-body {
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  height: 100vh;
+  display: flex;
 }
 
 .card-signin {
