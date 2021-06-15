@@ -20,7 +20,7 @@ export function LoginPage(props) {
   return (
     <div className="login-body">
     <div className="container my-auto">
-      <div className="col-11 col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div className="col-10 col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div className="card-signin">
           <div className="card-body">
             <h5 className="card-title text-center">Sign In</h5>
