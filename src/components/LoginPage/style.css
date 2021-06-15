@@ -1,3 +1,8 @@
+:root {
+  --input-padding-x: 1.5em;
+  --input-padding-y: 1.2em;
+}
+
 .login-body {
   background: linear-gradient(to right, #0062E6, #33AEFF);
   height: 100vh;
@@ -6,27 +11,26 @@
 
 .card-signin {
   background-color: #fff;
-  border: 0;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-signin .card-title {
-  margin-bottom: 2rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .card-signin .card-body {
-  padding: 2rem;
+  padding: 2em;
 }
 
 .btn {
   font-size: 80%;
-  border-radius: 5rem;
+  border-radius: 2em;
   letter-spacing: .1rem;
   font-weight: bold;
-  padding: 1rem;
+  padding: 1.2em;
   transition: all 0.2s;
 }
 
@@ -40,12 +44,12 @@
   border-radius: 2rem;
 }
 
-.form-label-group>input,
-.form-label-group>label {
+.form-label-group > input,
+.form-label-group > label {
   padding: var(--input-padding-y) var(--input-padding-x);
 }
 
-.form-label-group>label {
+.form-label-group > label {
   position: absolute;
   top: 0;
   left: 0;
@@ -62,10 +66,10 @@
   padding-bottom: calc(var(--input-padding-y) / 3);
 }
 
-.form-label-group input:not(:placeholder-shown)~label {
+.form-label-group input:not(:placeholder-shown) + label {
   padding-top: calc(var(--input-padding-y) / 3);
   padding-bottom: calc(var(--input-padding-y) / 3);
-  font-size: 12px;
+  font-size: 1rem;
   color: #777;
 }
 
