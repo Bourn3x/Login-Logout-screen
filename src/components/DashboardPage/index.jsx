@@ -17,11 +17,7 @@ export function DashboardPage(props) {
         <div className="card-signout">
           <div className="card-body">
             <h5 className="card-title text-center">Your are now signed in!</h5>
-            <form className="form-signin">
-
-              <button onClick={handleSignOutClick} className="btn btn-lg btn-primary btn-block text-uppercase">Logout</button>
-
-            </form>
+            <button onClick={handleSignOutClick} className="btn btn-lg btn-primary btn-block text-uppercase">Logout</button>
           </div>
         </div>
       </div>
