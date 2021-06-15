@@ -7,16 +7,25 @@
 .card-signout {
   background-color: #fff;
   border: 0;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.card-signout .card-title {
-  margin-bottom: 2rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+  border-radius: 1em;
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-signout .card-body {
-  padding: 2rem;
+  padding: 2.5em;
+}
+
+.card-signout .card-title {
+  margin-bottom: 2em;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-size: 1rem;
+  border-radius: 2em;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1.2em;
+  transition: all 0.2s;
 }
